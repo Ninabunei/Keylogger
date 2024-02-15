@@ -12,4 +12,5 @@ To check if it has been installed properly , run "import pynput" on your IDLE no
 3.Then create a definition for keypresses called on_press which takes key as a parameter. In this definition, we want to log the key using the logging info method. The key will need to be cast to a string before logging it.
 4.Next setup an instance of Listener and define the on_press method in a with statement and then .join() the thread to the main thread.
 
- 
+ ## STOPPING THE KEYLOGGER 
+ after you,ve run the code and made sure that the keylogger is working properly, it is essential to stop the keylogger so that it doesn't continue monitoring your keystrokes, to do this go to you activity monitor and disable any python program running . 
